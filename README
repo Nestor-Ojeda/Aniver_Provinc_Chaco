@@ -1,0 +1,26 @@
+1) Crear el entorno virtual
+Por consola, en la ruta donde queremos que este el entorno:
+
+>virtualenv (nombreEntorno)
+>cd (nombreEntorno)
+>cd Scripts
+>activate
+
+2) instalar django ultima versión
+Desde donde quedamos en la consola:
+
+>pip install django
+>pip freeze --> para visualizar las librerías instaladas actualmente
+>deactivate --> en caso de querer salir del entorno
+
+3) clonar el repositorio
+Por consola, en ruta donde queremos que este el repo:
+
+>git clone https://github.com/Nestor-Ojeda/Aniver_Provinc_Chaco
+
+
+---------------------------------------------------------------
+Para verificar que funciona el servidor, por consola nos paramos donde se ubica el archivo manage.py:
+
+>python manage.py runserver
+
